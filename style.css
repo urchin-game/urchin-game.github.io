@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #3b79b5;
+
+}
+
+h1 {
+
+    margin: 0 auto;
+    background: url(logo.png);
+    background-size: contain;
+    width: 400px;
+    height: 400px;
+
+}
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
