@@ -41,7 +41,8 @@ body {
 
 .content {
     background-color: var(--rock-color);
-    height: 100vh;
+    height: 200vh;
+    position: relative;
 }
 
 .content-container {
@@ -87,4 +88,25 @@ p.headline {
     position: absolute;
     white-space: nowrap; 
     width: 1px;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    color: white;  
+    padding: 1rem;
+}
+
+.menu ul {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    padding: .5em .25em;
 }
