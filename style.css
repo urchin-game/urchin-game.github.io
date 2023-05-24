@@ -9,22 +9,36 @@
 body {
     padding: 0;
     margin: 0;
+
 }
 
 .cover {
 
     /*background-color: #3b79b5;*/
     background: url(/assets/background.png);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
 
 }
 
 .slide {
-    height: 100vh;
     position: relative;
 }
 
 .content {
     background-color: var(--rock-color);
+    height: 100vh;
+}
+
+.content-container {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 h1 {
@@ -34,17 +48,23 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     width: 400px;
+    max-width: 40%;
     height: 400px;
     text-align: center;
 
 }
 
+p.headline {
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    color: yellow;
+}
+
 .scene {
     /*background: url(/assets/fisherman-lighthouse.png);*/
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: block;
     
 }
 
