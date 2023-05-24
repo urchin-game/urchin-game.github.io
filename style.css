@@ -12,15 +12,26 @@ body {
 
 }
 
+.wrapper {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 .cover {
 
     /*background-color: #3b79b5;*/
     background: url(/assets/background.png);
     height: 100vh;
     width: 100vw;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    /*
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0;*/
 
 }
 
