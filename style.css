@@ -2,20 +2,50 @@
     box-sizing: border-box;
 }
 
+:root {
+    --rock-color: #283336;
+}
+
 body {
+    padding: 0;
+    margin: 0;
+}
 
-    background-color: #3b79b5;
+.cover {
 
+    /*background-color: #3b79b5;*/
+    background: url(/assets/background.png);
+
+}
+
+.slide {
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    background-color: var(--rock-color);
 }
 
 h1 {
 
     margin: 0 auto;
-    background: url(logo.png);
+    background: url(/assets/title.png);
     background-size: contain;
+    background-repeat: no-repeat;
     width: 400px;
     height: 400px;
+    text-align: center;
 
+}
+
+.scene {
+    /*background: url(/assets/fisherman-lighthouse.png);*/
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
 }
 
 .sr-only:not(:focus):not(:active) {
