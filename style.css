@@ -43,6 +43,7 @@ body {
     background-color: var(--rock-color);
     height: 200vh;
     position: relative;
+    border: 3px solid hotpink;
 }
 
 .content-container {
@@ -96,6 +97,7 @@ p.headline {
     left: 0;
     color: white;  
     padding: 1rem;
+    opacity: 1;
 }
 
 .menu ul {
