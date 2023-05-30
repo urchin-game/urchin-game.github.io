@@ -82,10 +82,15 @@ p.headline {
 }
 
 p.subheadline {
-    margin: 1em auto;
+    margin: 3em auto;
     font-size: 1.2rem;
     text-align: center;
-    text-shadow: 0 0 2px var(--rock-color);
+    background-color: ghostwhite;
+    width: 200px;
+    box-shadow: 0 0 4px 4px ghostwhite;
+    color: var(--rock-color);
+    padding: .4em .4em;
+    border-radius: .5em;
 
 }
 
@@ -266,13 +271,15 @@ div.screenshots-container img + img {
 .card-stack {
     position: relative;
     margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 400px;
 }
 
 .card {
     position: absolute;
     display: block;
     width: 200px;
-    top: 50%;
+    top: 0;
     left: calc(50% - 100px);
     transform-origin: left bottom;
     /*--basic-displacement: 5px;
@@ -321,6 +328,31 @@ div.screenshots-container img + img {
     100% {transform: rotate(-25deg);} 
 }
 
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.wrapper-team ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-team li {
+    padding: .2em .4em;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.wall {
+    background-image: url(wall.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 50px;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
 /*
 @keyframes t {
     0%   {--t: 0; }
