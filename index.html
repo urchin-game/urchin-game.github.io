@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fisher-Man!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,21 +16,123 @@
 
         <div class="cover">
 
-            <h1><span class="sr-only">Fisher-Man</span></h1>
+            <img class="fisherman" src="fisherman.png" alt="">
+
+            <div class="cover-inner-wrapper">
+
+                <h1><span class="sr-only">Fisher-Man</span></h1>
     
-            <p class="headline">A new jumping experience</p>
+                <p class="headline">A new climbing experience</p>
+
+                <p class="subheadline">Soon on <a href="https://itch.io/">itch.io</a>!</p>
+
+                <div class="arrow-start">
+                    <a href="#main">v</a>
+                </div>
+
+            </div>
+
     
         </div>
     
-        <div class="content-container">
+        <div class="content-container" id="main">
     
-            <img class="scene" src="/assets/fisherman-lighthouse.png" alt="" srcset="">
+            <!--<img class="scene" src="/assets/fisherman-lighthouse.png" alt="" srcset="">-->
     
             <div class="content">
     
-                <div class="menu">
+                <!--<div class="menu">
+
+                    <ul>
+                        <li>Buy the game!</li>
+                        <li>Developer's Blog</li>
+                        <li>Discussion forums</li>
+                    </ul>
     
+                </div>-->
+
+                <div class="text-narrow">
+                    <p class="opening">Armed only with his faithful fishing rod and his wits, 
+                        a lone fisherman defies the royalty 
+                        and an unforgiving tower in an epic quest 
+                        for the ocean's stolen fish!</p>
                 </div>
+
+                <div class="video-wrapper">
+                    <iframe class="video" src="https://www.youtube.com/embed/9mCiZTu0Pn8?&autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+                <div class="text-narrow">
+                    <p><strong>Fisher-Man</strong> is a new platformer climbing game, with a unique movement system: the only way to move your character is by using his fishing rod as a <strong>grappling hook</strong>!</p>
+                </div>
+
+                <div class="screenshots-container">
+
+                    <img src="gameplay-shot-2.png" alt="A similar shot, but this time the fisherman is hanging on the outside wall of the lighthouse." srcset="">
+
+                    <img src="gameplay-shot-1.png" alt="A screenshot from the game, showing the fisherman hanging from his fishing rod inside a tower that looks like a lighthouse. Style is simple, flat, two-dimensional." srcset="">
+
+                </div>
+
+                <div class="text-narrow">
+
+                    <p>Levels are <strong>procedurally generated</strong> using the <em>wave-function collapse</em> technique</p>
+
+                    <div class="img-wrapper">
+                        <img src="levels.png" alt="A screenshot of the level generator on the Unity game development platform.">
+                    </div>
+
+                    <p>Play on the <strong>regular</strong> mode, and climb each section, fight the bosses, until you reach the very top of the tower.</p>
+
+                    <div class="img-wrapper">
+                        <img class="lightbulb" src="bulb.png" alt="A very angry lightbulb">
+                        <div class="circle"></div>
+                    </div>
+                    
+
+                    <p>Or play on <strong>speed run</strong> mode, with no enemies, and challenge your friends to climb as fast as possible! Share your exploits on social media!
+                    </p>
+
+                    <div class="card-stack">
+                        <img src="card.png" alt="" class="card">
+                        <img src="card.png" alt="" class="card">
+                        <img src="card.png" alt="" class="card">
+                        <img src="card.png" alt="" class="card">
+                    </div>
+
+                </div>
+
+                <div class="wall"></div>
+
+                <h2>The Team</h2>
+
+                <div class="wrapper-team">
+                    <ul>
+                        <li>
+                            Aritra Bhakat
+                        </li>
+
+                        <li>
+                            Christine Wolf
+                        </li>
+
+                        <li>
+                            David Kaméus
+                        </li>
+
+                        <li>
+                            Martin Kihl
+                        </li>
+
+                        <li>
+                            Tiago Maranhao Barreto Pereira
+                        </li>
+                    </ul>
+                </div>
+
+                <p>
+                    Check out our <a href="https://github.com/urchin-game/Urchin">repository</a>!
+                </p>
     
             </div>
     
@@ -35,8 +140,6 @@
         </div>
 
     </div>
-
-
 
 </body>
 
