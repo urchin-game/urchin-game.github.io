@@ -1,11 +1,9 @@
 console.log('estou');
 gsap.registerPlugin(ScrollTrigger);
-gsap.to('.content', {
-    color: 'yellow',
+gsap.to('.menu', {
+    opacity: 1,
     scrollTrigger: {
-        trigger: "ul",
-        start: "top 80%",
-        end: "top bottom",
+        trigger: ".opening",
         markers: true,
         onEnter: () => {console.log('entrou')}
     },

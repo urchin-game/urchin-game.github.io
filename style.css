@@ -4,11 +4,13 @@
 
 :root {
     --rock-color: #283336;
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
     padding: 0;
     margin: 0;
+    color: ghostwhite;
 
 }
 
@@ -43,7 +45,7 @@ body {
     background-color: var(--rock-color);
     height: 200vh;
     position: relative;
-    border: 3px solid hotpink;
+    padding-top: 1rem;
 }
 
 .content-container {
@@ -62,16 +64,9 @@ h1 {
     background-repeat: no-repeat;
     width: 400px;
     max-width: 40%;
-    height: 400px;
+    height: 250px;
     text-align: center;
 
-}
-
-p.headline {
-    margin: 0 auto;
-    font-size: 2rem;
-    text-align: center;
-    color: yellow;
 }
 
 .scene {
@@ -111,4 +106,26 @@ p.headline {
 
 .menu li {
     padding: .5em .25em;
+}
+
+p.headline {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+div.text-narrow {
+
+    margin: 0 auto;
+    max-width: 560px;
+
+}
+
+p.opening {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a {
+    color: inherit;
 }
